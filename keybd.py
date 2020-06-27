@@ -1,3 +1,4 @@
-from pynput.Keyboard import Key, Controller
+from pynput.keyboard import Controller, Key
+
 kbd = Controller()
 kbd.press('K')
